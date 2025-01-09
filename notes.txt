@@ -1,0 +1,3 @@
+ <img src="/conference-ticket-generator-main/assets/images/pattern-circle.svg" alt="circle background design" class="background">
+        <img src="/conference-ticket-generator-main/assets/images/pattern-squiggly-line-top.svg" alt="squigly lines bottom" class="background reduce" >
+        <img src="/conference-ticket-generator-main/assets/images/pattern-squiggly-line-bottom.svg" alt="squigly lines bottom" class="background reduce">

@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    background-image: url("./conference-ticket-generator-main/assets/images/background-mobile.png");
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content p{
+    padding-bottom: 10px;
+}
+
+#ticket{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.small-ticket{
+    height: 170px;
+    margin-top: 40px;
+}
+
+.top{
+    position: absolute;
+    top: 80px;   
+    left: 42%; 
+    transform: translate(-50%, -50%);
+}
+.top img{
+    height:20px;
+    padding-top:10px;
+}
+
+.top p{
+    font-size: 10px;
+}
+
+#bottom{
+    position: absolute;
+    bottom:-30px;  
+    left: 44%; 
+    transform: translate(-50%, -50%);
+
+}
+
+#bottom h3{
+    margin:0px;
+    text-align: left;
+}
+#congrats{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+#email-div{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid hsl(245, 19%, 35%);
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: hsl(247, 72%, 11%);
+}
+
+button{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    color: white;
+    background-color: hsl(7, 88%, 67%);
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        width:50%;
+    }
+    button{
+        width:50%;
+    }
+   
+}
+
