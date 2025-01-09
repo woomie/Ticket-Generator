@@ -21,11 +21,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const ticketEmail =document.getElementById("bottom").querySelector("p");
     
     if(congratsDiv && emailDiv) {
-        congratsDiv.textContent = `Congrats ${fullName}!<br> Your ticket is ready.`;
+        congratsDiv.textContent = `Congrats ${fullName}! Your ticket is ready.`;
         emailDiv.textContent = `We have emailed your ticket to ${userEmail} and will send updates in the run up to the event.`;
         
     }
     ticketName.textContent = `${fullName}`;
     ticketEmail.textContent = `${userEmail}`;
+    
 
 });

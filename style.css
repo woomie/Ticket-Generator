@@ -80,6 +80,7 @@ input{
     border-radius: 8px;
     box-sizing: border-box;
     background-color: hsl(247, 72%, 11%);
+    color: white;
 }
 
 button{
@@ -106,6 +107,7 @@ button{
     }
     input{
         width:50%;
+        color:white;
     }
     button{
         width:50%;
