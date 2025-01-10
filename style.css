@@ -22,15 +22,17 @@ header{
     padding-bottom: 10px;
 }
 
-#ticket{
-    position: relative;
-    text-align: center;
-    color: white;
-}
+
 
 .small-ticket{
     height: 170px;
     margin-top: 40px;
+}
+#ticket{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin:0 auto;
 }
 
 .top{
@@ -41,6 +43,8 @@ header{
 }
 .top img{
     height:20px;
+    width:100%;
+    display:block;
     padding-top:10px;
 }
 
